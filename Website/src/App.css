@@ -1,0 +1,7 @@
+/* Make disabled time slots red */
+.MuiMultiSectionDigitalClockSection-item.Mui-disabled {
+  background-color: rgba(255, 0, 0, 0.15) !important;
+  color: #d32f2f !important; /* red text */
+  border-radius: 6px;
+  opacity: 1 !important; /* remove gray overlay */
+}
